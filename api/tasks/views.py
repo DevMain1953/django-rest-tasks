@@ -12,7 +12,6 @@ from rest_framework.reverse import reverse
 from rest_framework import viewsets
 
 
-
 @api_view(["GET"])
 def api_root(request, format=None):
     return Response({
