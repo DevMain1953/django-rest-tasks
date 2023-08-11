@@ -4,5 +4,6 @@ Simple REST API created with Django REST Framework. Task board where users can c
 
 # Installation
 
-- clone this repository using `git clone <link>` command
-- create and run migrations for `tasks` application
+- clone this repository using `git clone <link>` command;
+- install dependencies `poetry install`;
+- create and run migrations for `tasks` application.
