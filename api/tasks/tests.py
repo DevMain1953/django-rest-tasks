@@ -23,7 +23,7 @@ class NewTaskCreatingTest(TestCase):
 
         request = api_request_factory.get("/tasks/")
         
-        response = task_view_set(request, pk=2)
+        response = task_view_set(request, pk=1)
         self.assertEqual(response.status_code, 200)
 
         response = task_view_set(request, pk=2)
